@@ -1,0 +1,45 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+.title{
+    color: white;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+
+}
+.description{
+    color: white;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+
+}
+.banner{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+
+}
+.banner_image{
+    border-radius: 16px;
+
+
+
+}
+
+    .happy-new-year{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:632px;
+        padding: 160px 345px 160px 345px;
+  border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+    }
