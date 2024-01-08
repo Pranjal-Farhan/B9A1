@@ -72,13 +72,13 @@ font-weight: 700;
 padding-bottom:50px ;    }   
 
 .party{
-   margin-top: 100px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: 1320px 600px;
     background-position: center;
 display: flex;
 justify-content: center;
+
 }
 
 .text-a{
@@ -112,12 +112,46 @@ padding-left: 30px;
 }
     
 .party-texts{
-    padding-top: 50px;
+    padding-top: 250px;
     padding-left: 200px;
 width:800px
  ;}
  .group70{
-    padding-top: 100px;
+    padding-top: 300px;
     padding-right: 150px;
+    padding-bottom: 300px;
    
+ }
+ .details{
+    margin-left:  482px;
+    margin-right:  482px;
+
+    padding: 100px 386px 214px 385px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; 
+ }
+
+
+ .btn{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+color: white;
+border: 0px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
  }
