@@ -46,7 +46,6 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
     .catagory{
         text-align: center;
-        line-height: normal;
         font-family: Inter;
         font-style: normal;
 
@@ -56,17 +55,69 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     .text1{color: #F00;
 font-size: 88px;
 font-weight: 700;
-    }
+padding-top: 100px; 
+padding-bottom: 50px;   }
         .text2{
             color: #F00;
 text-align: center;
 font-size: 24px;
 font-weight: 500;
-        }
+
+margin-bottom: 10px;        }
 
     .text3{
         color: #070211;
         font-size: 48px;
 font-weight: 700;
-    }   
+padding-bottom:50px ;    }   
+
+.party{
+   margin-top: 100px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 1320px 600px;
+    background-position: center;
+display: flex;
+justify-content: center;
+}
+
+.text-a{
+    color: white;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+}
+.text-b{
+    color:rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.text-c{
+    color: white;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 30px;
+padding-left: 30px;
+}
     
+.party-texts{
+    padding-top: 50px;
+    padding-left: 200px;
+width:800px
+ ;}
+ .group70{
+    padding-top: 100px;
+    padding-right: 150px;
+   
+ }
