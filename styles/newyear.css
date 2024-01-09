@@ -212,7 +212,6 @@ margin-left: 780px;        position: absolute;
    }
 .ligma{
     color: #F00;
-    text-align: left;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -235,7 +234,7 @@ text-align: center;
     }
     .catalog-images{
         display: grid;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 450px 450px 450px;
     grid-template-columns:400px 400px 400px ;
     grid-gap: 40px 40px;
     justify-content: center;
@@ -247,6 +246,7 @@ text-align: center;
     }
     .catalog{
         position: relative;
+        display: block;
     }
    
    .subscribe{
@@ -263,4 +263,35 @@ justify-content: center;
     padding: 150px 300px 290px 300px;
     margin-left: 140px;
     margin-right: 140px ;
+}
+.footer{
+    background-color: #070211;
+}
+
+.footer-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    border: 0px;
+    padding: 40px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.first-grp{
+    display: block;
+}
+.line {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+margin-left: 250px;
+margin-right: 250px;
+
+}
+.footer-mid{
+    padding: 50px;
+text-align: center;
 }
