@@ -227,7 +227,10 @@ margin-left: 780px;        position: absolute;
     line-height: normal;
     text-transform: capitalize;}
     .catalog-text{
-padding-top: 100px;   
+padding-top: 100px;
+left: 50%; 
+justify-content: center;  
+text-align: center;
         
     }
     .catalog-images{
@@ -240,9 +243,24 @@ padding-top: 100px;
     .grid{
         background:white;
         border-radius: 16px;
-  display: flex;
-  
 
     }
+    .catalog{
+        position: relative;
+    }
    
-   
+   .subscribe{
+display: flex;
+left: 50%;
+justify-content: center;
+}
+.newsletter{
+    position: relative;
+    background-color:  rgba(255, 0, 0, 0.05);
+    background-size: 1320px 616px;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 300px 290px 300px;
+    margin-left: 140px;
+    margin-right: 140px ;
+}
