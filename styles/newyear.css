@@ -33,18 +33,22 @@ font-size: 72px;
 }
 
     .happy-new-year{
+        background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../images/Banner\ Image.png);
+        background-size:1320px 600px;
+        background-repeat: no-repeat;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width:632px;
-        padding: 160px 345px 160px 345px;
+        padding: 100px 345px 250px 345px;
   border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  margin: 0px;
 
     }
 
     .catagory{
+        margin-top: 500px;
+        padding-top: 300px;
         text-align: center;
         font-family: Inter;
         font-style: normal;
@@ -123,8 +127,8 @@ width:800px
    
  }
  .details{
-    margin-left:  482px;
-    margin-right:  482px;
+    margin-left:  400px;
+    margin-right:  400px;
 
     padding: auto;
     background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -206,3 +210,39 @@ margin: 0;  }
         margin-top: 130px;
 margin-left: 780px;        position: absolute;
    }
+.ligma{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sukon{color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;}
+    .catalog-text{
+padding-top: 100px;   
+        
+    }
+    .catalog-images{
+        display: grid;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns:400px 400px 400px ;
+    grid-gap: 40px 40px;
+    justify-content: center;
+    }
+    .grid{
+        background:white;
+        border-radius: 16px;
+  display: flex;
+  
+
+    }
+   
+   
